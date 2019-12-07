@@ -10,6 +10,14 @@ const kMeasurementTextStyle = TextStyle(
   fontWeight: FontWeight.w900,
 );
 
+const kTitleTextStyle = TextStyle(fontSize: 50, fontWeight: FontWeight.bold);
+
+const kBMITextStyle = TextStyle(fontSize: 100, fontWeight: FontWeight.bold);
+const kBodyTextStyle = TextStyle(fontSize: 22, fontWeight: FontWeight.bold);
+
+const kResultTextStyle = TextStyle(
+    fontSize: 22, fontWeight: FontWeight.bold, color: Color(0xff24e876));
+
 const kBottomContainerHeight = 70.0;
 const kActiveCardColor = 0xff1d1e33;
 const kInactiveCardColor = 0xff111328;
